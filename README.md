@@ -1,4 +1,4 @@
-# Drum Machine
+# Javascript Calculator
 A FreeCodeCamp course project.
 
 # Demo
