@@ -1,6 +1,5 @@
 import './App.css';
-import Button from './Button';
-import Display from './Display';
+import Calculator from './Calculator';
 
 function App() {
   const buttons = {
@@ -27,15 +26,9 @@ function App() {
     ],
   }
 
-  const calculate = () => {
-    // TODO decide how to pass the args
-  }
-
   return (
     <div className="App">
-      <Display content="0"/>
-      {buttons.numbers.map(button => <Button id={button.id} label={button.label}/>)}
-      {buttons.operators.map(button => <Button id={button.id} label={button.label}/>)}
+      <Calculator buttons={buttons}/>
     </div>
   );
 }
