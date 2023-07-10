@@ -13,16 +13,16 @@ function App() {
       { id: 'seven', label: '7'  },
       { id: 'eight', label: '8'  },
       { id: 'nine', label: '9'  },
-      { id: 'zero', label: '0'  },
       { id: 'decimal', label: '.'  },
+      { id: 'zero', label: '0'  },
     ],
     operators: [
-      { id: 'equals', label: '='  },
+      { id: 'clear', label: 'AC'  },
+      { id: 'divide', label: '/'  },
+      { id: 'multiply', label: '*'  },
       { id: 'add', label: '+'  },
       { id: 'subtract', label: '-'  },
-      { id: 'multiply', label: '*'  },
-      { id: 'divide', label: '/'  },
-      { id: 'clear', label: 'AC'  },
+      { id: 'equals', label: '='  },
     ],
   }
 

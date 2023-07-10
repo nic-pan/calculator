@@ -1,7 +1,9 @@
 const Display = (props) => {
 
     return <div id="display">
-        {props.content}
+        <span className="display-6">
+           {props.content}
+        </span>
     </div>
 }
 export default Display;
